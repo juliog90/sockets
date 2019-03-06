@@ -1,7 +1,5 @@
 <?php
-
-namespace Rat;
-
+namespace MyApp;
 use Ratchet\MessageComponentInterface;
 use Ratchet\ConnectionInterface;
 
@@ -18,5 +16,4 @@ class Chat implements MessageComponentInterface {
     public function onError(ConnectionInterface $conn, \Exception $e) {
     }
 }
-
 ?>
